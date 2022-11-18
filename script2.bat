@@ -1,4 +1,4 @@
 git add .
-git commit -m "a new change was made"
+git commit -m index3
 
 git push -u origin main
