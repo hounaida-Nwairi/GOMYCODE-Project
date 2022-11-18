@@ -1,0 +1,50 @@
+<style>
+.hamburger-menu {
+z-index: 1024 !important;
+padding: 1em;
+display: none;
+font: normal normal normal 16px/1 Roboto;
+text-transform: uppercase;
+}
+@media (max-width: 991px)
+.hamburger-menu {
+-webkit-tap-highlight-color: transparent;
+height: 35px;
+width: 35px;
+cursor: pointer;
+display: block !important;
+text-align: center;
+float: none;
+margin-left: 15px;
+}
+
+.Entete {
+
+  background-color:white;
+  text-align: right;
+
+}
+
+.DATE {
+  color: rgb(26, 114, 192);
+}
+
+.competencies {
+
+  float: left;
+  height: 1000px;
+  margin: 10px;
+}
+
+
+.cvphoto {
+  float: right;
+  margin: 10px;
+
+}
+
+.Function {
+  color: rgb(0, 0, 133);
+  ;
+}
+</style>

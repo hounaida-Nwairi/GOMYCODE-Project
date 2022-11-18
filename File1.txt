@@ -1,3 +1,0 @@
-HELLO world
-
-first git command
