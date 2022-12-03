@@ -1,50 +1,87 @@
-<style>
-.hamburger-menu {
-z-index: 1024 !important;
-padding: 1em;
-display: none;
-font: normal normal normal 16px/1 Roboto;
-text-transform: uppercase;
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
 }
-@media (max-width: 991px)
-.hamburger-menu {
--webkit-tap-highlight-color: transparent;
-height: 35px;
-width: 35px;
-cursor: pointer;
-display: block !important;
-text-align: center;
-float: none;
-margin-left: 15px;
+.main{
+  height: 100vh;
+  width: 100%;
+
+background-image: url(../IMG/Background1.jpg);
+background-size: cover;
+background-position: Center;
 }
-
-.Entete {
-
-  background-color:white;
-  text-align: right;
+nav{
+  display:flex ;
+  align-items: center ;
+  justify-content: space-between;
+padding-top: 45px;
+padding-left: 8%;
+padding-right: 8%;
+}
+.logo{
+  color: rgb(8, 32, 98);
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+span{
+  color: #f9004d;
+}
+nav ul li {
+  list-style-type: none ;
+  display: inline-block;
+  padding: 10px 25px;
+}
+nav ul li a {
+  color:rgb(8, 32, 98) ;
+  text-decoration:none ;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color:#f9004d;
+  transition:.4s;
+}
+.btn{
+  background-color: #c54672;
+  color:white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding:10px 25px;
+border-radius: 30px;
+transition: transform .4s;
 
 }
-
-.DATE {
-  color: rgb(26, 114, 192);
+.btn:hover{
+  transform: scale(1.2);
 }
-
-.competencies {
-
-  float: left;
-  height: 1000px;
-  margin: 10px;
+.Content {
+  position:absolute;
+  top:50%;
+  left:8%;
+  transform: translateY(-50%);
 }
-
-
-.cvphoto {
-  float: right;
-  margin: 10px;
-
+h2{
+  margin: 20px 0px 20px;
+  font-size: 75px;
 }
-
-.Function {
-  color: rgb(0, 0, 133);
-  ;
+h3{
+  font-size: 25px;
+  margin-bottom: 50px;
 }
-</style>
+h4{
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.newslatter form{
+  width: 380px;
+  max-width: 100%;
+ position: relative; 
+}
+.newslatter form input:first-child{
+  display: inline-block;
+  width:100% ;
+}
