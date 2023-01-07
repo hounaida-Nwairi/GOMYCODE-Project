@@ -22,7 +22,7 @@ function reverse(){
 
 }
 function compare() {
-var x = 'a'
+var x ='a'
 var y =1
 
 if(x>y) {
@@ -32,4 +32,9 @@ alert("hi");
 else{
     alert("Uncomparable")
 }
+}
+
+function inp(){
+    var visitorName = prompt("What's your name : ")
+    var isCoolWithIt = confirm("Are you ok with it?")
 }
